@@ -1,9 +1,59 @@
+html{
+    background-color: #eaeaea;
+    line-height: 1.2;
+    font-size: 18px;
+    font-family: Arial;
+}
+
+body{
+    font-size: 1rem;
+}
+
+h1, h2, h3{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
 h1{
     color: #00000f;
     font-family: Tahoma;
+    text-align: center;
+    font-size: 3rem;
 }
 
 h2{
     color: blue;
     font-family: Tahoma;
+    font-size: 2.5rem;
+}
+
+h3{
+    font-family: Tahoma;
+    font-size: 2rem;
+}
+
+p{
+    color: #4a4545;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 20px, 20px, 20px, 20px
+}
+
+article{
+    border-style: double;
+    border-width: 2px;
+}
+
+.image{
+    border-style: double;
+    border-width: 2px;
+    border-color: #eaeaea;
+}
+
+#first{
+    color: red;
+}
+
+article p{
+    font-style: Arial;
 }
